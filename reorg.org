@@ -1,0 +1,14 @@
+#+STARTUP: beamer
+#+OPTIONS: toc:nil
+#+LANGUAGE: en
+#+LaTeX_CLASS: beamer
+#+LaTeX_CLASS_OPTIONS: [presentation]
+#+BEAMER_FRAME_LEVEL: 1
+#+BEAMER_HEADER_EXTRA: \usetheme{Berlin} \usecolortheme{default}
+#+COLUMNS: %40ITEM %10BEAMER_env(Env) %10BEAMER_envargs(Env Args) %4BEAMER_col(Col) %8BEAMER_extra(Extra)
+#+TITLE: ReORGanize your life
+#+AUTHOR: Andrea Crotti
+
+* Text file
+
+* Why
