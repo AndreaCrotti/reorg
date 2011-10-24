@@ -35,7 +35,24 @@
    - everything can be presented as an outline
    - writing / editing and restructuring information
 
+*** Sample source                                                   :B_block:
+    :PROPERTIES:
+    :BEAMER_env: block
+    :END:
+
+\pause
+#+begin_src org
+  ,* First topic
+  ,  
+  ,** First Subtopic
+  ,   
+  ,   Some text 
+  ,   - list element
+  ,   - another list element
+  
+  ,** Second subtopic
+#+end_src
+
 ** Core design
    - Don't impose unwanted complexity
    - 95% of the features added after the core implementation
-   - 
