@@ -3,17 +3,39 @@
 #+LANGUAGE: en
 #+LaTeX_CLASS: beamer
 #+LaTeX_CLASS_OPTIONS: [presentation]
-#+BEAMER_FRAME_LEVEL: 1
+#+BEAMER_FRAME_LEVEL: 2
 #+BEAMER_HEADER_EXTRA: \usetheme{Berlin} \usecolortheme{default}
 #+COLUMNS: %40ITEM %10BEAMER_env(Env) %10BEAMER_envargs(Env Args) %4BEAMER_col(Col) %8BEAMER_extra(Extra)
 #+TITLE: ReORGanize your life
 #+AUTHOR: Andrea Crotti
 
-* What
-  - system for *ORG*anizing and tracking everything in your life
+# what can we show:
+# - sparse tree
+# - agenda view
+# - column view
+# - tables and nice computations
+
+* Introduction
+** What
+  - created in 2003 by Carsten Dominik
+  - system for *ORG*-anizing and tracking everything in your life
   - major *mode* for Emacs
   - big and incredibly active community
 
 # I guess everyone know already what is emacs
 # ask how many people know it already
-* Why
+** Text files
+   - only really *portable* format
+   - light, human readable
+   - revision control system
+   - standard tools (grep / perl / regexp)
+
+* Basic concepts
+** Outline
+   - everything can be presented as an outline
+   - writing / editing and restructuring information
+
+** Core design
+   - Don't impose unwanted complexity
+   - 95% of the features added after the core implementation
+   - 
