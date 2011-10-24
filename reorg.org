@@ -9,6 +9,11 @@
 #+TITLE: ReORGanize your life
 #+AUTHOR: Andrea Crotti
 
-* Text file
+* What
+  - system for *ORG*anizing and tracking everything in your life
+  - major *mode* for Emacs
+  - big and incredibly active community
 
+# I guess everyone know already what is emacs
+# ask how many people know it already
 * Why
