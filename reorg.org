@@ -35,12 +35,12 @@
    - everything can be presented as an outline
    - writing / editing and restructuring information
 
+\pause
 *** Sample source                                                   :B_block:
     :PROPERTIES:
     :BEAMER_env: block
     :END:
 
-\pause
 #+begin_src org
   ,* First topic
   ,  
@@ -54,5 +54,35 @@
 #+end_src
 
 ** Core design
-   - Don't impose unwanted complexity
+   - don't impose unwanted complexity
    - 95% of the features added after the core implementation
+   - tries to adapt to everyone's needs
+
+** TODO Items
+   - TODOS are *outline* items
+   - TODO have optional *metadata*
+     + timestamps (active / inactive)
+     + tags
+     + priority
+     + properties
+     + notes
+     ...
+\pause
+*** Examp                                                           :B_block:
+    :PROPERTIES:
+    :BEAMER_env: block
+    :END:
+
+#+begin_src org
+  ,* TODO [#A] orgmode talk at ruby <2011-10-27 Thu>          :ruby:programming:
+  ,  :PROPERTIES:
+  ,  :LOCATION: ruby group meeting room
+  ,  :END:
+  ,  
+  ,  During this talk I will show some features of orgmode
+#+end_src
+
+* Other features
+** Write once, export everywhere
+   Many possible export formats
+
