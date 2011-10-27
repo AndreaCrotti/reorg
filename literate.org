@@ -1,13 +1,40 @@
 Literate programming example
 
-#+begin_src ruby :exports both
+* This is a Ruby script for sample
+
+#+begin_src ruby :exports result
   def smart_sum(a, b)
     a + b
   end
 
-  smart_sum(100, 200)
+ smart_sum(100, 200)
 #+end_src
 
 #+results:
 : 300
+
+
+* Shell script sample
+#+begin_src sh :exports both
+  ls -lh
+  
+#+end_src
+
+#+results:
+| total      | 12M |        |        |      |     |    |       |                                    |
+| drwxr-xr-x |   2 | andrea | andrea | 4.0K | Oct | 27 | 18:00 | auto                               |
+| -rw-r--r-- |   1 | andrea | andrea | 136  | Oct | 27 | 17:51 | custom.el                          |
+| -rw-r--r-- |   1 | andrea | andrea | 2.8M | Oct | 25 | 09:52 | Google-Tech-Talk-Org-mode.pdf      |
+| -rw-r--r-- |   1 | andrea | andrea | 8.4K | Oct | 27 | 18:04 | #literate.html#                    |
+| -rw-r--r-- |   1 | andrea | andrea | 8.4K | Oct | 27 | 18:03 | literate.html                      |
+| -rw-r--r-- |   1 | andrea | andrea | 262  | Oct | 27 | 18:04 | literate.org                       |
+| -rw-r--r-- |   1 | andrea | andrea | 90K  | Oct | 27 | 18:00 | literate.pdf                       |
+| -rw-r--r-- |   1 | andrea | andrea | 801  | Oct | 27 | 18:00 | literate.tex                       |
+| -rw-r--r-- |   1 | andrea | andrea | 7.9M | Oct | 25 | 09:52 | MPI-Neurology-Talk-Org-mode.pdf    |
+| -rw-r--r-- |   1 | andrea | andrea | 771K | Oct | 25 | 09:52 | org-fosdem-presentation-beamer.pdf |
+| -rw-r--r-- |   1 | andrea | andrea | 10K  | Oct | 27 | 17:46 | reorg.html                         |
+| -rw-r--r-- |   1 | andrea | andrea | 3.4K | Oct | 27 | 17:56 | reorg.org                          |
+| -rw-r--r-- |   1 | andrea | andrea | 101K | Oct | 27 | 17:56 | reorg.pdf                          |
+| -rw-r--r-- |   1 | andrea | andrea | 4.5K | Oct | 27 | 17:56 | reorg.tex                          |
+| -rw-r--r-- |   1 | andrea | andrea | 133  | Oct | 27 | 17:53 | sample.org                         |
 
