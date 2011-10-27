@@ -85,4 +85,35 @@
 * Other features
 ** Write once, export everywhere
    Many possible export formats
+   - ASCII
+   - HTML
+   - LateX
+   - freemind /XOXO / iCalendar
+   - Docbook
+   - Taskjuggler
+   - ODT
+   - *generic* exporter
+   - ... 
 
+** Spreadsheet facilities
+
+** Publishing system
+   
+
+** Literate programming
+# here I should introduce something about org-babel
+   - many languages supported
+
+*** Language table support                                          :B_block:
+    :PROPERTIES:
+    :BEAMER_env: block
+    :END:
+| C          | R      | asymptote | awk     | calc    |
+| clojure    | comint | css       | ditaa   | dot     |
+| emacs-lisp | eval   | exp       | gnuplot | haskell |
+| java       | js     | keys      | latex   | ledger  |
+| lilypond   | lisp   | lob       | matlab  | maxima  |
+| mscgen     | ocaml  | octave    | org     | perl    |
+| plantuml   | python | ref       | ruby    | sass    |
+| scheme     | screen | sh        | shen    | sql     |
+| sqlite     | table  | tangle    |         |         |
