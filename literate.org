@@ -1,0 +1,13 @@
+Literate programming example
+
+#+begin_src ruby :exports both
+  def smart_sum(a, b)
+    a + b
+  end
+
+  smart_sum(100, 200)
+#+end_src
+
+#+results:
+: 300
+

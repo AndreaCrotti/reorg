@@ -81,7 +81,7 @@
   ,  During this talk I will show some features of orgmode
 #+end_src
 
-* Other features
+* Features
 ** Write once, export everywhere
    Many possible export formats
    - ASCII
@@ -95,11 +95,20 @@
    - ... 
 
 ** Spreadsheet facilities
-   Can 
+   - spreadsheet functionalities, with *arbitrarily* complex formulas
 
-** Publishing system
+*** Sample table                                                    :B_block:
+    :PROPERTIES:
+    :BEAMER_env: block
+    :END:
+#+begin_src org
+  ,| A | B | C |
+  ,|---+---+---|
+  ,| 1 | 2 | 3 |
+  ,| 4 | 2 | 5 |
+  ,#+TBLFM: $3=$1 + $2
+#+end_src
    
-
 ** Literate programming
 # here I should introduce something about org-babel
    - many languages supported
@@ -117,3 +126,9 @@
 | plantuml   | python | ref       | ruby    | sass    |
 | scheme     | screen | sh        | shen    | sql     |
 | sqlite     | table  | tangle    |         |         |
+
+** Other
+   - write email
+   - manage your address book (org-contacts.el)
+   - publish and maintain a website
+   - prepare slides with *org-beamer*
